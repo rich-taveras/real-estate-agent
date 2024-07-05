@@ -1,7 +1,7 @@
-
 import React from 'react';
 import styled from 'styled-components';
 
+// Estilos con Styled Components
 const Container = styled.div`
   max-width: 100%;
   margin: auto;
@@ -32,26 +32,23 @@ const IconLink = styled.a`
   font-size: 30px;
   color: #007bff;
 
-  @media (max-width: 1900px){
-    display: none;
-
-  @media (max-width: 430px){
+  @media (max-width: 430px) {
     max-height: 600px;
     display: block;
     margin: auto;
+  }
 `;
 
-export default function Home() {
+const Home = () => {
   return (
     <Container>
-      <IconLink href="tel:7862906721" target=""><i class="fa fa-phone"></i> </IconLink>
-      <IconLink href="https://wa.me/7862906721" target=""><i class="fa-brands fa-whatsapp"></i>
- </IconLink>
-      <Title>Clean Pools Florida</Title>
-      <Subtitle>SoFlo Swimming Pools Service and Maintenace</Subtitle>
-      
-      <Image src="./assets/images/resort-pool-front-page.jpg" alt="pool cleaning tools, test kit, net, chlorine floater, resort-pool-front-page" />
-      
+      <IconLink href="tel:7542759057" target="_blank"><i className="fa fa-phone"></i></IconLink>
+      <IconLink href="https://wa.me/7542759057" target="_blank"><i className="fab fa-whatsapp"></i></IconLink>
+      <Title>Taveras Group</Title>
+      <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
+      <Image src="./assets/images/luxury-property.jpg" alt="Luxurious property with modern architecture and pool" />
     </Container>
   );
-}
+};
+
+export default Home;
