@@ -10,7 +10,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-size: 48px;
-  color: #343a40;
+  color: #0A74DA;
   margin-top: 20px;
   margin-bottom: 20px;
 `;
@@ -30,7 +30,7 @@ const Image = styled.img`
 const IconLink = styled.a`
   margin: 0 10px;
   font-size: 30px;
-  color: #007bff;
+  color: #0A74DA;
 
   @media (max-width: 430px) {
     max-height: 600px;
@@ -44,7 +44,7 @@ const Home = () => {
     <Container>
       <IconLink href="tel:7542759057" target="_blank"><i className="fa fa-phone"></i></IconLink>
       <IconLink href="https://wa.me/7542759057" target="_blank"><i className="fab fa-whatsapp"></i></IconLink>
-      <Title>Taveras Group Realty</Title>
+      <Title> Rich Taveras</Title>
       <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
       <Image src="./assets/images/luxury-property.jpg" alt="Luxurious property with modern architecture and pool" />
     </Container>

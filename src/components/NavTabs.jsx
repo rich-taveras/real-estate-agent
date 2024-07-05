@@ -8,7 +8,7 @@ import Footer from './pages/Footer';
 const IconLink = styled.a`
   margin: 0 10px;
   font-size: 30px;
-  color: #007bff;
+  color: #0A74DA;
 `;
 
 const NavBar = styled.li`
@@ -16,7 +16,7 @@ const NavBar = styled.li`
   justify-content: flex-end;
   align-items: center; 
   padding: 15px;
-  background-color: #f8f9fa;
+  background-color: #0A74DA;
 
   @media (max-width: 430px){
   display: none;
@@ -95,7 +95,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <div>
         <IconLink href="https://twitter.com/taverasr" target="_blank"><i class="fab fa-twitter"></i></IconLink>
-        <IconLink href="https://instagram.com/richtaveras" target="_blank"><i class="fab fa-instagram"></i></IconLink>
+        <IconLink href="https://instagram.com/rich_taveras" target="_blank"><i class="fab fa-instagram"></i></IconLink>
         <IconLink href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></IconLink>
       
         
