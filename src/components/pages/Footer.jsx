@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       {/* Add your footer content here */}
-      © 2024 Clean Pools Co. All Rights Reserved.
+      © 2024 Taveras Group Realty. All Rights Reserved.
     </FooterContainer>
   );
 };

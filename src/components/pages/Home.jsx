@@ -44,7 +44,7 @@ const Home = () => {
     <Container>
       <IconLink href="tel:7542759057" target="_blank"><i className="fa fa-phone"></i></IconLink>
       <IconLink href="https://wa.me/7542759057" target="_blank"><i className="fab fa-whatsapp"></i></IconLink>
-      <Title>Taveras Group</Title>
+      <Title>Taveras Group Realty</Title>
       <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
       <Image src="./assets/images/luxury-property.jpg" alt="Luxurious property with modern architecture and pool" />
     </Container>
