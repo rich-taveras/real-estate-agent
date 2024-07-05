@@ -2,7 +2,8 @@ import { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Project from './pages/Services';
+import Services from './pages/Services';
+import Properties from './pages/Properties';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'Services') {
+      return <Services />;
     }
     if (currentPage === 'Properties') {
       return <Properties />;
