@@ -1,0 +1,17 @@
+/* src/components/Property.css */
+.property {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .property img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .property .price {
+    color: green;
+    font-weight: bold;
+  }
+  
