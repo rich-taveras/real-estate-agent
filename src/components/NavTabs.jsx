@@ -16,7 +16,7 @@ const NavBar = styled.li`
   justify-content: flex-end;
   align-items: center; 
   padding: 15px;
-  background-color: #0A74DA;
+  
 
   @media (max-width: 430px){
   display: none;
