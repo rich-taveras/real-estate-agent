@@ -1,4 +1,4 @@
-// src/components/AboutMe.js
+// src/components/pages/About.jsx
 import React from 'react';
 import styled from 'styled-components';
 
@@ -23,11 +23,19 @@ const AboutMe = () => {
       <Heading>About Me</Heading>
       <hr />
       <Paragraph>
-        Welcome to Taveras Group Realty, your trusted partner in real estate services in Northern Virginia. My name is Rich Taveras, and I am dedicated to helping you find your dream home or sell your property at the best price. With years of experience in the real estate market, I bring a wealth of knowledge and a personalized approach to each transaction.
+        Welcome to Taveras Group, your trusted partner in real estate services in Northern Virginia. My name is Rich Taveras, and I am dedicated to helping you find your dream home or sell your property at the best price. With years of experience in the real estate market, I bring a wealth of knowledge and a personalized approach to each transaction.
       </Paragraph>
       <Paragraph>
-        At Taveras Group Realty, we understand that buying or selling a home is more than just a transaction; it’s a life-changing experience. That's why I am committed to providing exceptional, personalized service
-        </Paragraph>
-        </AboutContainer>
+        At Taveras Group, we understand that buying or selling a home is more than just a transaction; it’s a life-changing experience. That's why I am committed to providing exceptional, personalized service to all my clients.
+      </Paragraph>
+      <Paragraph>
+        Whether you are a first-time homebuyer, looking to upgrade, or interested in investment properties, I am here to guide you through every step of the process. My extensive knowledge of the Northern Virginia real estate market, combined with my dedication to client satisfaction, ensures that you receive the best possible outcome.
+      </Paragraph>
+      <Paragraph>
+        Contact Taveras Group today to start your real estate journey. Let’s make your real estate dreams a reality.
+      </Paragraph>
+    </AboutContainer>
   );
-}
+};
+
+export default AboutMe;
