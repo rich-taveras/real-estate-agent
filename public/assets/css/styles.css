@@ -1,6 +1,4 @@
-/* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background: url(./images/hd-mars-image.jpg);
@@ -8,37 +6,23 @@ body {
   background-repeat: no-repeat;
   background-color: black;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.header, .main, .footer {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 section {
-  height: 100vh;
+  height: 100hv;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Optional: Style for the images */
 img {
   max-width: 100%;
-  height: auto;
 }
 
+/* Optional: Style for the text inside columns */
 p {
   margin-top: 10px;
   font-size: 14px;
 }
-
 .navigation {
   color: white;
   text-align: end;
@@ -46,13 +30,16 @@ p {
   margin-right: 20px;
   margin-top: 10px;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 .myCV {
   text-decoration: none;
   font-weight: bold;
   font-size: large;
 }
-
 .section:nth-child(even) {
   background-color: #ccc;
 }
@@ -76,7 +63,12 @@ p {
   left: 50%;
   transform: translateX(-50%);
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2); /* Adjust background color and opacity */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust background color and opacity */
   border-radius: 10px;
   box-shadow: 0 10px 20px black;
 }
@@ -140,7 +132,6 @@ p {
     transform: rotateY(360deg) rotateX(360deg);
   }
 }
-
 /* intro */
 .intro-view {
   margin: 2px;
@@ -201,7 +192,7 @@ a:hover {
   color: red;
 }
 
-/* contact section */
+/* contact section*/
 label {
   color: whitesmoke;
 }
@@ -226,13 +217,12 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
+p {
+  color: white;
+}
 
 input[type="submit"]:hover {
   background-color: #337cff;
-}
-
-p {
-  color: white;
 }
 
 /* portfolio section */
@@ -241,7 +231,7 @@ p {
   text-align: center;
 }
 
-/* shooting star */
+/* shooting star*/
 span {
   position: absolute;
   top: 50%;
@@ -251,9 +241,9 @@ span {
   background: #fff;
   border-radius: 50%;
   animation: animate 3s linear infinite;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba (255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
 }
-
 span::before {
   content: "";
   position: absolute;
@@ -263,40 +253,11 @@ span::before {
   height: 1px;
   background: linear-gradient(90deg, #fff, transparent);
 }
-
 @keyframes animate {
   0% {
     transform: rotate(315deg) translateX(0);
   }
   100% {
     transform: rotate(315deg) translate(-2000px);
-  }
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .header, .main, .footer {
-    flex-direction: column;
-  }
-
-  .nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav ul li {
-    margin: 10px 0;
-  }
-}
-
-@media (min-width: 769px) {
-  .nav ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav ul li {
-    margin: 0 20px;
   }
 }
