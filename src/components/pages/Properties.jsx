@@ -1,3 +1,4 @@
+// src/components/pages/Properties.jsx
 import React from 'react';
 import styled from 'styled-components';
 
@@ -32,6 +33,11 @@ const PropertyTitle = styled.h3`
 
 const PropertyDescription = styled.p`
   color: #777;
+`;
+
+const Paragraph = styled.p`
+  color: #555;
+  line-height: 1.6;
 `;
 
 const Properties = () => {
