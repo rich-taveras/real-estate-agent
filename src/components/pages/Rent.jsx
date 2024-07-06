@@ -1,4 +1,4 @@
-// src/components/pages/Properties.jsx
+// src/components/pages/Buy.jsx
 import React from 'react';
 import styled from 'styled-components';
 
