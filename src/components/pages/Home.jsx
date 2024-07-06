@@ -14,7 +14,7 @@ const ProfileImage = styled.img`
 const Home = () => {
   return (
     <HomeContainer id="home">
-      <ProfileImage src="/images/tu-foto.jpg" alt="Rich Taveras" />
+      <ProfileImage src="/images/mypic.jpg" alt="Rich Taveras" />
       <h2>Welcome to Rich Taveras' Real Estate</h2>
       <p>Your trusted real estate agent in Northern Virginia.</p>
     </HomeContainer>
