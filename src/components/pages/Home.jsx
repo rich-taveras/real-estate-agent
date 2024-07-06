@@ -22,9 +22,10 @@ const Subtitle = styled.h2`
 `;
 
 const Image = styled.img`
-  width: 80%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 200px; /* Tamaño ajustable según tu preferencia */
+  height: auto;
+  border-radius: 50%; /* Para un borde redondeado en la imagen */
+  margin-top: 20px;
 `;
 
 const IconLink = styled.a`
@@ -39,14 +40,21 @@ const IconLink = styled.a`
   }
 `;
 
+const Paragraph = styled.p`
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+`;
+
 const Home = () => {
   return (
     <Container>
       <IconLink href="tel:7542759057" target="_blank"><i className="fa fa-phone"></i></IconLink>
       <IconLink href="https://wa.me/7542759057" target="_blank"><i className="fab fa-whatsapp"></i></IconLink>
-      <Title> Rich Taveras</Title>
+      <Title>Rich Taveras</Title>
       <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
-      <Image src="./assets/images/luxury-property.jpg" alt="Luxurious property with modern architecture and pool" />
+      <Image src="./assets/images/logo.jpg" alt="Rich Taveras - Real Estate Agent" />
+      <Paragraph>Explore Northern Virginia's vibrant real estate market with Rich Taveras. Contact me today to schedule a consultation and find your dream home.</Paragraph>
     </Container>
   );
 };
