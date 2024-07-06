@@ -53,7 +53,7 @@ const Home = () => {
       <IconLink href="https://wa.me/7542759057" target="_blank"><i className="fab fa-whatsapp"></i></IconLink>
       <Title>Rich Taveras</Title>
       <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
-      <Image src="./assets/images/logo.jpg" alt="Rich Taveras - Real Estate Agent" />
+      <Image src="./assets/images/mypic.jpg" alt="Rich Taveras - Real Estate Agent" />
       <Paragraph>Explore Northern Virginia's vibrant real estate market with Rich Taveras. Contact me today to schedule a consultation and find your dream home.</Paragraph>
     </Container>
   );
