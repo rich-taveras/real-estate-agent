@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   margin: 0;
   padding: 0;
@@ -5,24 +6,42 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .main, .footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 section {
-  height: 100hv;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Optional: Style for the images */
 img {
   max-width: 100%;
+  height: auto;
 }
 
-/* Optional: Style for the text inside columns */
 p {
   margin-top: 10px;
   font-size: 14px;
 }
+
 .navigation {
   color: white;
   text-align: end;
@@ -30,16 +49,13 @@ p {
   margin-right: 20px;
   margin-top: 10px;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-}
 
 .myCV {
   text-decoration: none;
   font-weight: bold;
   font-size: large;
 }
+
 .section:nth-child(even) {
   background-color: #ccc;
 }
@@ -48,8 +64,8 @@ p {
   height: 30vh;
   position: relative;
   text-align: center;
-  margin-top: 50px; /* Adjust as needed */
-  z-index: 1; /* Bring the content above the background */
+  margin-top: 50px;
+  z-index: 1;
 }
 
 .test-section {
@@ -63,12 +79,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   padding: 20px;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Adjust background color and opacity */
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 0 10px 20px black;
 }
@@ -132,6 +143,7 @@ p {
     transform: rotateY(360deg) rotateX(360deg);
   }
 }
+
 /* intro */
 .intro-view {
   margin: 2px;
@@ -148,13 +160,14 @@ p {
 
 /* about */
 .about-section,
-.projects-section,
+.properties-section,
 .contact-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 20px;
 }
 .about-section p {
   align-items: center;
@@ -225,8 +238,8 @@ input[type="submit"]:hover {
   background-color: #337cff;
 }
 
-/* portfolio section */
-.projects_container {
+/* properties section */
+.properties_container {
   width: 50%;
   text-align: center;
 }
@@ -259,5 +272,60 @@ span::before {
   }
   100% {
     transform: rotate(315deg) translate(-2000px);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .navigation {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .home {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .home-text {
+    position: static;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .cube {
+    width: 150px;
+    height: 150px;
+  }
+
+  .side {
+    width: 150px;
+    height: 150px;
+  }
+
+  .paragraph {
+    margin: 20px;
+  }
+
+  .properties_container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .social-icons {
+    padding: 20px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
   }
 }
