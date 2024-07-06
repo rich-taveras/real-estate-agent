@@ -54,7 +54,8 @@ const Home = () => {
       <Title>Rich Taveras</Title>
       <Subtitle>Real Estate Agent in Northern Virginia</Subtitle>
       <Image src="./assets/images/mypic.jpg" alt="Rich Taveras - Real Estate Agent" />
-      <Paragraph>Explore Northern Virginia's vibrant real estate market with Rich Taveras. Contact me today to schedule a consultation and find your dream home.</Paragraph>
+      <Paragraph>Explore Northern Virginia's vibrant real estate market with Rich Taveras. </Paragraph>
+      <Paragraph>Contact me today to schedule a consultation and find your dream home.</Paragraph>
     </Container>
   );
 };
