@@ -1,41 +1,20 @@
-// src/components/pages/About.jsx
 import React from 'react';
 import styled from 'styled-components';
 
-const AboutContainer = styled.div`
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+const AboutContainer = styled.section`
+  text-align: center;
 `;
 
-const Heading = styled.h2`
-  color: #333;
-`;
-
-const Paragraph = styled.p`
-  color: #555;
-  line-height: 1.6;
-`;
-
-const AboutMe = () => {
+const About = () => {
   return (
-    <AboutContainer>
-      <Heading>About Me</Heading>
-      <hr />
-      <Paragraph>
-        Welcome to Taveras Group, your trusted partner in real estate services in Northern Virginia. My name is Rich Taveras, and I am dedicated to helping you find your dream home or sell your property at the best price. With years of experience in the real estate market, I bring a wealth of knowledge and a personalized approach to each transaction.
-      </Paragraph>
-      <Paragraph>
-        At Taveras Group, we understand that buying or selling a home is more than just a transaction; it’s a life-changing experience. That's why I am committed to providing exceptional, personalized service to all my clients.
-      </Paragraph>
-      <Paragraph>
-        Whether you are a first-time homebuyer, looking to upgrade, or interested in investment properties, I am here to guide you through every step of the process. My extensive knowledge of the Northern Virginia real estate market, combined with my dedication to client satisfaction, ensures that you receive the best possible outcome.
-      </Paragraph>
-      <Paragraph>
-        Contact Taveras Group today to start your real estate journey. Let’s make your real estate dreams a reality.
-      </Paragraph>
+    <AboutContainer id="about">
+      <h2>About Me</h2>
+      <p>
+        I am Rich Taveras, a dedicated real estate agent with over 10 years of experience
+        helping clients find their dream homes in Northern Virginia.
+      </p>
     </AboutContainer>
   );
 };
 
-export default AboutMe;
+export default About;
