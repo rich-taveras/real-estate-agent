@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -26,6 +28,17 @@ function App() {
       </main>
       <footer className="App-footer">
         <p>&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
+        <div className="social-icons">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+        </div>
       </footer>
     </div>
   );
