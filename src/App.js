@@ -14,7 +14,7 @@ function App() {
           </ul>
         </nav>
         <div className="logo">
-          <img src="/logo192.png" alt="Logo" />
+          <img src="/images/logo192.png" alt="Logo" />
         </div>
         <nav className="right-links">
           <ul>
@@ -24,7 +24,9 @@ function App() {
         </nav>
       </header>
       <main className="App-main">
-        {/* Contenido principal de la página */}
+        <div className="frontimage">
+          <img src="/images/FrontPageHome.jpg" alt="Home" />
+        </div>
       </main>
       <footer className="App-footer">
         <p>&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>

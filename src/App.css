@@ -3,11 +3,16 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+.frontimage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -60,24 +65,22 @@
   margin-left: 0; /* Elimina el margen izquierdo del primer elemento */
 }
 
-.App-main {
-  flex: 1;
-  padding: 20px;
-}
-
 .App-footer {
   background-color: #022875;
   color: white;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; /* Permitir el cambio de línea para elementos internos */
 }
 
+.App-footer p {
+  margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
 .social-icons {
   display: flex;
-  gap: 10px; /* Espaciado entre los iconos */
+  gap: 12px; /* Espaciado entre los iconos */
 }
 
 .social-icons a {
@@ -92,7 +95,15 @@
   .App-footer {
     flex-direction: column;
   }
-
+  .App-footer p{
+    margin-left: 0;
+  }
+  .frontimage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
   .left-links, .right-links, .logo {
     width: 100%;
     text-align: center;
