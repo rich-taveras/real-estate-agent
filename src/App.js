@@ -29,10 +29,10 @@ function App() {
       <footer className="App-footer">
         <p>&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
         <div className="social-icons">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/taverasr" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/rich_taveras" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
